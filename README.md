@@ -6,4 +6,4 @@ The program can be run without installation (if `aws-cli` is installed) or from 
 AWS CLI Command Reference: https://awscli.amazonaws.com/v2/documentation/api/latest/reference/index.html
 
 Note: For a number of objective reasons, I strongly recommend instead `aws-cli` use `s3cmd` + `S3cmd-GUI`:  
-https://github.com/AKotov-dev/s3cmd-gui
+https://github.com/AKotov-dev/s3cmd-gui `S3cmd` is much faster and more reliable than `aws-cli`.
