@@ -1,0 +1,7 @@
+{"version":1,"strings":[
+{"hash":116154878,"name":"tconfigform.caption","sourcebytes":[67,111,110,102,105,103,117,114,97,116,105,111,110],"value":"Configuration"},
+{"hash":249389389,"name":"tconfigform.label1.caption","sourcebytes":[97,119,115,95,97,99,99,101,115,115,95,107,101,121,95,105,100,61],"value":"aws_access_key_id="},
+{"hash":174105453,"name":"tconfigform.label2.caption","sourcebytes":[97,119,115,95,115,101,99,114,101,116,95,97,99,99,101,115,115,95,107,101,121,61],"value":"aws_secret_access_key="},
+{"hash":146671213,"name":"tconfigform.label3.caption","sourcebytes":[114,101,103,105,111,110,61],"value":"region="},
+{"hash":66769837,"name":"tconfigform.label4.caption","sourcebytes":[45,45,101,110,100,112,111,105,110,116,45,117,114,108,32,61],"value":"--endpoint-url ="}
+]}

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="11"/>
+    <BuildModes Count="1" Active="Release">
+      <Item1 Name="Release">
+        <CompilerOptions>
+          <Version Value="11"/>
+          <Target>
+            <Filename Value="s3cmdgui"/>
+          </Target>
+          <SearchPaths>
+            <IncludeFiles Value="$(ProjOutDir)"/>
+            <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
+          </SearchPaths>
+          <CodeGeneration>
+            <SmartLinkUnit Value="True"/>
+            <Optimizations>
+              <OptimizationLevel Value="3"/>
+            </Optimizations>
+          </CodeGeneration>
+          <Linking>
+            <Debugging>
+              <GenerateDebugInfo Value="False"/>
+            </Debugging>
+            <LinkSmart Value="True"/>
+            <Options>
+              <Win32>
+                <GraphicApplication Value="True"/>
+              </Win32>
+            </Options>
+          </Linking>
+        </CompilerOptions>
+      </Item1>
+    </BuildModes>
+    <Units Count="12">
+      <Unit0>
+        <Filename Value="s3cmdgui.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="41" Y="19"/>
+        <UsageCount Value="48"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="unit1.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="MainForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Unit1"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="350"/>
+        <CursorPos X="40" Y="367"/>
+        <UsageCount Value="48"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="lsfoldertrd.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="LSFolderTRD"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="17" Y="84"/>
+        <UsageCount Value="48"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="s3commandtrd.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="S3CommandTRD"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="45" Y="144"/>
+        <UsageCount Value="43"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="config_unit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="ConfigForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="44" Y="11"/>
+        <UsageCount Value="41"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="about_unit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="AboutForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="16"/>
+        <CursorPos X="5" Y="47"/>
+        <UsageCount Value="35"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="firstconnecttrd.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="FirstConnectTRD"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="21" Y="33"/>
+        <UsageCount Value="31"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="acl_unit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="ACLForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="5" Y="77"/>
+        <UsageCount Value="25"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="bucket_unit.pas"/>
+        <ComponentName Value="BucketForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="38"/>
+        <CursorPos Y="50"/>
+        <UsageCount Value="35"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="lssdfoldertrd.pas"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="20"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="../adbmanager/lsfoldertrd.pas"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="6"/>
+        <UsageCount Value="10"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="../adbmanager/sdcommandtrd.pas"/>
+        <UnitName Value="SDCommandTRD"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="43"/>
+        <UsageCount Value="10"/>
+      </Unit11>
+    </Units>
+    <JumpHistory HistoryIndex="-1"/>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

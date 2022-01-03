@@ -1,0 +1,141 @@
+object ConfigForm: TConfigForm
+  Left = 326
+  Height = 218
+  Top = 128
+  Width = 548
+  ActiveControl = Edit1
+  Caption = 'Configuration'
+  ClientHeight = 218
+  ClientWidth = 548
+  KeyPreview = True
+  OnClose = FormClose
+  OnKeyUp = FormKeyUp
+  OnShow = FormShow
+  Position = poMainFormCenter
+  LCLVersion = '2.0.10.0'
+  object Label1: TLabel
+    AnchorSideTop.Control = Edit1
+    AnchorSideTop.Side = asrCenter
+    Left = 8
+    Height = 15
+    Top = 19
+    Width = 121
+    Caption = 'aws_access_key_id='
+    ParentColor = False
+  end
+  object Edit1: TEdit
+    AnchorSideLeft.Control = Label1
+    AnchorSideLeft.Side = asrBottom
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrBottom
+    Left = 134
+    Height = 36
+    Top = 8
+    Width = 406
+    Anchors = [akTop, akLeft, akRight]
+    BorderSpacing.Left = 5
+    BorderSpacing.Right = 8
+    TabOrder = 0
+  end
+  object Label2: TLabel
+    AnchorSideTop.Control = Edit2
+    AnchorSideTop.Side = asrCenter
+    Left = 8
+    Height = 15
+    Top = 59
+    Width = 146
+    Caption = 'aws_secret_access_key='
+    ParentColor = False
+  end
+  object Edit2: TEdit
+    AnchorSideLeft.Control = Label2
+    AnchorSideLeft.Side = asrBottom
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrBottom
+    Left = 159
+    Height = 36
+    Top = 48
+    Width = 381
+    Anchors = [akTop, akLeft, akRight]
+    BorderSpacing.Left = 5
+    BorderSpacing.Right = 8
+    TabOrder = 1
+  end
+  object Label3: TLabel
+    AnchorSideTop.Control = Edit3
+    AnchorSideTop.Side = asrCenter
+    Left = 8
+    Height = 15
+    Top = 99
+    Width = 47
+    Caption = 'region='
+    ParentColor = False
+  end
+  object Edit3: TEdit
+    AnchorSideLeft.Control = Label3
+    AnchorSideLeft.Side = asrBottom
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrBottom
+    Left = 60
+    Height = 36
+    Top = 88
+    Width = 480
+    Anchors = [akTop, akLeft, akRight]
+    BorderSpacing.Left = 5
+    BorderSpacing.Right = 8
+    TabOrder = 2
+  end
+  object Label4: TLabel
+    AnchorSideTop.Control = Edit4
+    AnchorSideTop.Side = asrCenter
+    Left = 8
+    Height = 15
+    Top = 139
+    Width = 100
+    Caption = '--endpoint-url ='
+    ParentColor = False
+  end
+  object Edit4: TEdit
+    AnchorSideLeft.Control = Label4
+    AnchorSideLeft.Side = asrBottom
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrBottom
+    Left = 113
+    Height = 36
+    Top = 128
+    Width = 427
+    Anchors = [akTop, akLeft, akRight]
+    BorderSpacing.Left = 5
+    BorderSpacing.Right = 8
+    TabOrder = 3
+  end
+  object OkBtn: TBitBtn
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrBottom
+    Left = 430
+    Height = 35
+    Top = 176
+    Width = 110
+    Anchors = [akTop, akRight]
+    BorderSpacing.Right = 8
+    Default = True
+    DefaultCaption = True
+    Kind = bkOK
+    ModalResult = 1
+    OnClick = OkBtnClick
+    TabOrder = 4
+  end
+  object CloseBtn: TBitBtn
+    AnchorSideRight.Control = OkBtn
+    Left = 318
+    Height = 35
+    Top = 176
+    Width = 110
+    Anchors = [akTop, akRight]
+    BorderSpacing.Right = 2
+    DefaultCaption = True
+    Kind = bkClose
+    ModalResult = 11
+    TabOrder = 5
+  end
+end
