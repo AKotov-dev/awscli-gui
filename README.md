@@ -7,3 +7,5 @@ AWS CLI Command Reference: https://awscli.amazonaws.com/v2/documentation/api/lat
 
 **Note:** For a number of objective reasons, I strongly recommend instead `aws-cli` use `s3cmd` + `S3cmd-GUI`:  
 https://github.com/AKotov-dev/s3cmd-gui `S3cmd` is much faster and more reliable than `aws-cli`.
+
+![](https://github.com/AKotov-dev/awscli-gui/blob/main/awscli-gui.png)
