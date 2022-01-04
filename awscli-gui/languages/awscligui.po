@@ -18,7 +18,7 @@ msgid "About"
 msgstr ""
 
 #: taboutform.label1.caption
-msgid "awscli-gui -v0.1"
+msgid "AwsCli-GUI v0.1"
 msgstr ""
 
 #: taboutform.label2.caption

@@ -1,7 +1,7 @@
 object AboutForm: TAboutForm
-  Left = 316
+  Left = 296
   Height = 261
-  Top = 140
+  Top = 130
   Width = 442
   ActiveControl = OkBtn
   Caption = 'About'
@@ -2303,7 +2303,7 @@ object AboutForm: TAboutForm
     Top = 8
     Width = 170
     BorderSpacing.Left = 20
-    Caption = 'awscli-gui -v0.1'
+    Caption = 'AwsCli-GUI v0.1'
     Font.Height = -19
     Font.Name = 'Sans'
     Font.Style = [fsBold]

@@ -48,7 +48,7 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="Unit1"/>
-        <TopLine Value="476"/>
+        <IsVisibleTab Value="True"/>
         <CursorPos X="14" Y="507"/>
         <UsageCount Value="63"/>
         <Loaded Value="True"/>
@@ -78,10 +78,12 @@
         <ComponentName Value="ConfigForm"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <EditorIndex Value="-1"/>
+        <EditorIndex Value="3"/>
         <TopLine Value="71"/>
         <CursorPos X="40" Y="78"/>
         <UsageCount Value="56"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
       </Unit4>
       <Unit5>
         <Filename Value="about_unit.pas"/>
@@ -89,7 +91,6 @@
         <ComponentName Value="AboutForm"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
         <TopLine Value="27"/>
         <CursorPos X="3" Y="58"/>
@@ -112,10 +113,12 @@
         <ComponentName Value="ACLForm"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <EditorIndex Value="-1"/>
+        <EditorIndex Value="2"/>
         <TopLine Value="15"/>
         <CursorPos Y="78"/>
         <UsageCount Value="40"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
       </Unit7>
       <Unit8>
         <Filename Value="bucket_unit.pas"/>

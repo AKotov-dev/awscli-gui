@@ -18,7 +18,7 @@ msgid "About"
 msgstr "О программе"
 
 #: taboutform.label1.caption
-msgid "awscli-gui -v0.1"
+msgid "AwsCli-GUI v0.1"
 msgstr ""
 
 #: taboutform.label2.caption
@@ -183,3 +183,4 @@ msgstr "Приватный доступ [READ, objects, --acl private]"
 #: unit1.spublicaccess
 msgid "Public access [READ, objects, --acl public-read]"
 msgstr "Публичный доступ [READ, objects, --acl public-read]"
+

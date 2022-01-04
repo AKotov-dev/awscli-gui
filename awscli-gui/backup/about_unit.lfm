@@ -1,7 +1,7 @@
 object AboutForm: TAboutForm
-  Left = 316
+  Left = 296
   Height = 261
-  Top = 140
+  Top = 130
   Width = 442
   ActiveControl = OkBtn
   Caption = 'About'
@@ -2301,9 +2301,9 @@ object AboutForm: TAboutForm
     Left = 156
     Height = 21
     Top = 8
-    Width = 170
+    Width = 177
     BorderSpacing.Left = 20
-    Caption = 'awscli-gui -v0.1'
+    Caption = 'awscli-gui - v0.1'
     Font.Height = -19
     Font.Name = 'Sans'
     Font.Style = [fsBold]
@@ -2316,7 +2316,7 @@ object AboutForm: TAboutForm
     Height = 135
     Top = 40
     Width = 253
-    Caption = 'GUI for Command Line Client aws-cli'#10#10'License: GPLv3'#10'Compilation: Lazarus 2.0.10'#10'Author: alex_q_2000 (C) 2021'#10'Grantitudes: Buchan Milne'#10'Lewis Smith (Mageia Linux team)'#10#10'Russian Linux Forum: https://linuxforum.ru'
+    Caption = 'GUI for Command Line Client aws-cli'#10#10'License: GPLv3'#10'Compilation: Lazarus 2.0.10'#10'Author: alex_q_2000 (C) 2021'#10'Grantitudes: Buchan Milne,'#10'Lewis Smith (Mageia Linux team)'#10#10'Russian Linux Forum: https://linuxforum.ru'
     ParentColor = False
   end
   object Bevel1: TBevel

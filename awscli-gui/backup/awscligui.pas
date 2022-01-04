@@ -16,7 +16,7 @@ uses {$IFDEF UNIX}
 
 begin
   RequireDerivedFormResource := True;
-  Application.Title:='S3cmd-GUI v1.0';
+  Application.Title:='AwsCli-GUI v0.1';
   Application.Scaled := True;
   Application.Initialize;
   Application.CreateForm(TMainForm, MainForm);
